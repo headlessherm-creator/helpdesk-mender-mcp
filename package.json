@@ -1,0 +1,17 @@
+{
+  "name": "helpdesk-mender-mcp",
+  "version": "0.1.0",
+  "mcpName": "io.github.headlessherm-creator/helpdesk-mender-mcp",
+  "description": "One MCP server, one consistent tool vocabulary, for Zendesk, Freshdesk, and Help Scout write operations: create/update tickets, add replies/notes, change status. No separate integration code per platform.",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "helpdesk-mender-mcp": "src/index.js"
+  },
+  "keywords": ["mcp", "model-context-protocol", "mcp-server", "ai-agents", "helpdesk", "support", "zendesk", "freshdesk", "helpscout", "ticketing", "customer-support"],
+  "license": "MIT",
+  "author": "headless108",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.4"
+  }
+}
